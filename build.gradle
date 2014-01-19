@@ -58,7 +58,9 @@ dependencies {
     compile "javax.servlet:jstl:${jstlVersion}"
 
     compile "org.hibernate:hibernate-validator:${hibernateValidatorVersion}"
-  
+    compile "com.oracle:ojdbc6:${oracleDriverVersion}"
+    compile "org.springframework.data:spring-data-jpa:${springDataJpaVersion}"
+
     testCompile "org.hamcrest:hamcrest-all:${hamcrestVersion}"
     testCompile "junit:junit:${junitVersion}"
     testCompile "org.mockito:mockito-all:${mockitoVersion}"
