@@ -3,7 +3,7 @@
  * Copyright 2014 NCR Corporation
  *-----------------------------------------------------------------------------
  */
-package com.pivotal.cf.broker.service.impl;
+package com.pivotal.cf.broker.oracle;
 
 import static org.junit.Assert.fail;
 
@@ -20,6 +20,7 @@ import com.pivotal.cf.broker.model.fixture.DataFixture;
 import com.pivotal.cf.broker.model.fixture.PlanFixture;
 import com.pivotal.cf.broker.model.fixture.ServiceFixture;
 import com.pivotal.cf.broker.model.fixture.ServiceInstanceFixture;
+import com.pivotal.cf.broker.oracle.OracleService;
 
 /**
  * @author ma250325
@@ -33,7 +34,7 @@ public class OracleServiceTest {
 
     /**
      * Test method for
-     * {@link com.pivotal.cf.broker.service.impl.OracleService#createServiceInstance(com.pivotal.cf.broker.model.ServiceDefinition, java.lang.String, java.lang.String, java.lang.String, java.lang.String)}
+     * {@link com.pivotal.cf.broker.oracle.OracleService#createServiceInstance(com.pivotal.cf.broker.model.ServiceDefinition, java.lang.String, java.lang.String, java.lang.String, java.lang.String)}
      * .
      * 
      * @throws ServiceBrokerException
@@ -49,7 +50,7 @@ public class OracleServiceTest {
     }
 
     /**
-     * Test method for {@link com.pivotal.cf.broker.service.impl.OracleService#deleteServiceInstance(java.lang.String)}.
+     * Test method for {@link com.pivotal.cf.broker.oracle.OracleService#deleteServiceInstance(java.lang.String)}.
      */
     @Test
     public void testDeleteServiceInstance() {
@@ -57,7 +58,7 @@ public class OracleServiceTest {
     }
 
     /**
-     * Test method for {@link com.pivotal.cf.broker.service.impl.OracleService#getAllServiceInstances()}.
+     * Test method for {@link com.pivotal.cf.broker.oracle.OracleService#getAllServiceInstances()}.
      */
     @Test
     public void testGetAllServiceInstances() {
@@ -66,7 +67,7 @@ public class OracleServiceTest {
     }
 
     /**
-     * Test method for {@link com.pivotal.cf.broker.service.impl.OracleService#getServiceInstance(java.lang.String)}.
+     * Test method for {@link com.pivotal.cf.broker.oracle.OracleService#getServiceInstance(java.lang.String)}.
      */
     @Test
     public void testGetServiceInstance() {

@@ -3,7 +3,7 @@
  * Copyright 2014 NCR Corporation
  *-----------------------------------------------------------------------------
  */
-package com.pivotal.cf.broker.service.impl;
+package com.pivotal.cf.broker.oracle;
 
 import java.util.HashMap;
 import java.util.Map;

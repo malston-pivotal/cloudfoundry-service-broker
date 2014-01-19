@@ -3,7 +3,7 @@
  * Copyright 2014 NCR Corporation
  *-----------------------------------------------------------------------------
  */
-package com.pivotal.cf.broker.service.impl;
+package com.pivotal.cf.broker.oracle;
 
 import org.junit.Test;
 
@@ -12,6 +12,7 @@ import com.pivotal.cf.broker.model.fixture.PlanFixture;
 import com.pivotal.cf.broker.model.fixture.ServiceFixture;
 import com.pivotal.cf.broker.model.fixture.ServiceInstanceBindingFixture;
 import com.pivotal.cf.broker.model.fixture.ServiceInstanceFixture;
+import com.pivotal.cf.broker.oracle.OracleBindingService;
 
 /**
  * @author ma250325
@@ -21,7 +22,7 @@ public class OracleBindingServiceTest {
 
     /**
      * Test method for
-     * {@link com.pivotal.cf.broker.service.impl.OracleBindingService#createServiceInstanceBinding(java.lang.String, com.pivotal.cf.broker.model.ServiceInstance, java.lang.String, java.lang.String, java.lang.String)}
+     * {@link com.pivotal.cf.broker.oracle.OracleBindingService#createServiceInstanceBinding(java.lang.String, com.pivotal.cf.broker.model.ServiceInstance, java.lang.String, java.lang.String, java.lang.String)}
      * .
      * 
      * @throws ServiceInstanceBindingExistsException
@@ -35,7 +36,7 @@ public class OracleBindingServiceTest {
     }
 
     /**
-     * Test method for {@link com.pivotal.cf.broker.service.impl.OracleBindingService#deleteServiceInstanceBinding(java.lang.String)}
+     * Test method for {@link com.pivotal.cf.broker.oracle.OracleBindingService#deleteServiceInstanceBinding(java.lang.String)}
      */
     @Test
     public void testDeleteServiceInstanceBinding() {
@@ -43,7 +44,7 @@ public class OracleBindingServiceTest {
     }
 
     /**
-     * Test method for {@link com.pivotal.cf.broker.service.impl.OracleBindingService#getServiceInstanceBinding(java.lang.String)}.
+     * Test method for {@link com.pivotal.cf.broker.oracle.OracleBindingService#getServiceInstanceBinding(java.lang.String)}.
      */
     @Test
     public void testGetServiceInstanceBinding() {

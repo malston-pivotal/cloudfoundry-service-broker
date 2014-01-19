@@ -1,4 +1,4 @@
-package com.pivotal.cf.broker.service.impl;
+package com.pivotal.cf.broker.oracle;
 
 import com.pivotal.cf.broker.exception.ServiceBrokerException;
 
